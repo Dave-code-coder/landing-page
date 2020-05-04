@@ -1,0 +1,150 @@
+body{
+    height: 100%;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: #000080;
+    height: 80px;
+    width: 100%;
+} 
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: white;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}           
+.block{
+    position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.wrap{
+    background: url(https://i.pinimg.com/564x/cc/65/90/cc6590e77a7dbacddc65c3b1a388c714.jpg);
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50% );
+    width: 400px;
+    padding: 40px;
+    background:darkblue;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0,.5);
+    border-radius: 10px;
+}
+.container input{
+    width: 100%;
+    padding: 1px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom:30px;
+    border: none;
+    border-bottom: 1px  solid #fff;
+    outline: none;
+    background: transparent;
+}
+.btn{
+    background-color: Transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: blue;
+    padding: 20px 120px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.img{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #f2f2f2;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+} 
+    #who-bound {
+        background: #000080;
+        height: 451px;
+        padding: 7px 120px;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    #who-bound .about {
+        font-size: 64px;
+        line-height: 77px;
+        color: rgba(255, 255, 255, 0.06);
+    }
+    
+    #who-bound .abt-details {
+        transform: translateY(-70px);
+    }
+    
+    #who-bound .abt-details p {
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    #who-bound .abt-details h1 {
+        color: #ffffff;
+    }
+    .btw{
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+        padding: 20px 120px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    footer{
+        padding: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        background:  #000080;
+        color: white;
+        font-family: Arial;
+        letter-spacing: 1px;
+    }
+  
