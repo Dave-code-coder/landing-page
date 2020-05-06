@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .fl{
+        float: left;
+    }
+
+    .main{
+        height: 530px;
+        background-color: rgba(7, 47, 79, 0.63);
+        margin: 70px 39%;
+    }
+     .head{
+        width: 100%;
+        height: 40px;
+        border-radius: 20px 20px 0 0;
+    }
+    .head p{
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff;
+    }
+    .form{
+        height: 550px;
+    }
+    .name{
+        font-size: 16px;
+        color: #fff;
+
+    }
+    .name-inp{
+        width: 40%;
+        height: 49px;
+        margin: 8px 0 0 5%;
+        font-size: 16px;
+        padding: 2px
+    } 
+    .name-inp2{
+        width: 89%;
+        height: 49px;
+        margin: 10px 0 0 5%;
+        font-size: 16px;
+        padding: 2px;
+    }
+    .name-inp3{
+        width: 91%;
+        height: 140px;
+        margin: 10px 0 0 5%;
+        font-size: 16px;
+        padding: px;
+    } 
+    .btn{
+    background-color: Transparent;
+    border: none;
+    width: 70%;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background: blue;
+    margin: 13px 0 0 10%;
+    padding: 20px 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="head"><p>login today</p></div>
+            <div class="form fl">
+                <form action=POST>
+                    <p>
+                    <input type="text" name="name" placeholder="First Name" class="name-inp">
+                    <input type="text" name="name" placeholder="Last Name" class="name-inp">
+                </p>
+                    <p><input type="text" name="name" placeholder="Company" class="name-inp2"></p> 
+                    <p>
+                    <input type="text" name="name" placeholder="Email" class="name-inp">
+                    <input type="text" name="name" placeholder="Phone" class="name-inp"> 
+                </p>
+                    <p><input type="text" name="name" placeholder="Message" class="name-inp3"></p> 
+                    <p><input type="Subimt" name="sb" value="SUBMIT" class="btn"></p>
+                    
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
